@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+#cache file
+.cache
+
+#distributable file
+dist/
+
+#test snapshots
+__snapshots__/
