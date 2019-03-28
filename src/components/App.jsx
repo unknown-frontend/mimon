@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
+import Dashboard from '../containers/Dashboard';
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
   render() {
     return (
-      <div>
-        <h1>Mimon</h1>
-      </div>
+      <Dashboard />
     );
   }
 }
