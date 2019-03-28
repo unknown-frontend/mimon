@@ -6,6 +6,7 @@
   "proxy": "http://localhost:1234",
   "scripts": {
     "test": "jest --expand",
+    "dev": "parcel ./src/index.html --no-cache --open --log-level 3",
     "build": "parcel src/index.html"
   },
   "jest": {
