@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:1234",
   "scripts": {
     "test": "jest --expand",
     "dev": "parcel ./src/index.html --no-cache --open --log-level 3",
